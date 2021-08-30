@@ -1,0 +1,68 @@
+.CartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.CartContainer h3 {
+  text-align: center;
+  font-size: 2rem;
+  background: url(./wave.svg) center/cover no-repeat;
+  color: rgb(255, 255, 255);
+  height: 9rem;
+}
+
+.total {
+  text-align: left;
+}
+.submit-actions {
+  margin: auto;
+  position: relative;
+  width: 80%;
+  background: rgb(255, 253, 253);
+  text-align: right;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.submit-actions div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-actions button {
+  margin-top: 20px;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: 1px solid #e94a1e;
+  background: #e94a1e;
+  color: #ffff;
+  outline: none;
+  cursor: pointer;
+}
+.submit-actions button:hover {
+  background: transparent;
+  color: #333;
+}
+.close {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .amount-actions h4 {
+    font-size: 0.9rem;
+  }
+  .submit-actions button {
+    margin-top: 40px;
+    display: block;
+    font-size: 0.7rem;
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .CartContainer h3 {
+    font-size: 1.2rem;
+    height: 6rem;
+  }
+}

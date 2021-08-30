@@ -1,0 +1,22 @@
+.items {
+  margin: 3rem auto;
+  display: grid;
+  width: 80vw;
+  max-width: 73.25rem;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.error {
+  color: rgb(51, 51, 51);
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+@media screen and (min-width: 900px) {
+  .items {
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
+}

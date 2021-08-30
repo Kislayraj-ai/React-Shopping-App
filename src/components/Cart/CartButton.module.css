@@ -1,0 +1,33 @@
+.cartButton {
+  position: relative;
+  width: 55px;
+}
+
+.cartIcon {
+  font-size: 1.5rem;
+  background: rgb(233, 230, 230);
+  color: #f75308;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.noOfItem {
+  display: inline;
+  top: -40%;
+  right: 10%;
+  position: absolute;
+  background: rgb(116, 115, 115);
+  color: #fffdfd;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+  .cartButton {
+    margin-top: 2rem;
+  }
+}

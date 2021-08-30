@@ -1,0 +1,69 @@
+.contents {
+  padding: 1rem;
+}
+
+.details {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.details button {
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  padding: 0.5rem 1.5rem;
+  background: #f15025;
+  border: 1px solid #f15025;
+  color: #fff;
+}
+.details .add {
+  margin-left: 10px;
+}
+.details button:hover {
+  background: transparent;
+  color: #222;
+}
+.single-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-item img {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+
+.underline {
+  margin-top: 10px;
+  width: 100%;
+  height: 2px;
+  background: #c02a01;
+}
+.main-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+}
+p {
+  text-transform: capitalize;
+  color: rgb(61, 60, 60);
+}
+
+.Title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .single-item img {
+    width: 240px;
+    height: 240px;
+  }
+  .details button {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,32 @@
+.backdrop,
+.modal {
+  top: 0%;
+  position: fixed;
+}
+
+.backdrop {
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.493);
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+.modal {
+  left: 39.2%;
+  width: 60vw;
+  height: 100vh;
+  background: rgb(236, 234, 234);
+  z-index: 99999 !important;
+  animation: moveLeft 0.5s;
+  overflow-y: scroll;
+}
+@keyframes moveLeft {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 39.2%;
+  }
+}
