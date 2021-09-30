@@ -14,8 +14,8 @@
 }
 
 .modal {
-  left: 39.2%;
-  width: 60vw;
+  left: 29.2%;
+  width: 70vw;
   height: 100vh;
   background: rgb(236, 234, 234);
   z-index: 99999 !important;
@@ -28,5 +28,12 @@
   }
   100% {
     left: 39.2%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal {
+    width: 86vw;
+    left: 14%;
   }
 }
