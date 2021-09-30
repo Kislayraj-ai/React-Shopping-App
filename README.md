@@ -1,6 +1,12 @@
-## React-Shopping-App (with firebase)
+## React-Shopping-App (with firebase) 
 
 Its an Shopping app build with React (react-redux and react-router-dom) & Firebase.I have alose added a payment gateway with Paypal Sandbox
+
+### Site hosted Live(on Netify)
+
+[@React-Shopping-App](https://snatchdeal.netlify.app/)
+
+
 
 ### firebase
 It's and google-backend app devlopment software , learn more about firebase 
